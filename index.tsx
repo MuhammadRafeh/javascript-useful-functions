@@ -1,1 +1,1 @@
-export { objectToArray } from './src/functions';
+export { objectToArray, addToArray, addToArrayAfterSpecificValue } from './src/functions.d';

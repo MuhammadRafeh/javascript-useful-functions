@@ -1,1 +1,0 @@
-export const objectToArray = (object: object): Array<object> => Object.keys(object).map(key => ({ [key]: object[key] }));
