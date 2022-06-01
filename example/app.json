@@ -1,0 +1,22 @@
+{
+  "name": "javascript-useful-functions-example",
+  "displayName": "JavascriptUsefulFunctions Example",
+  "expo": {
+    "name": "javascript-useful-functions-example",
+    "slug": "javascript-useful-functions-example",
+    "description": "Example app for javascript-useful-functions",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
