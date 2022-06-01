@@ -1,3 +1,1 @@
-export const objectToArray = () => {
-    return 'asd'
-}
+export const objectToArray = (object: object): Array<any> => (Object.keys(object).map(key => object[key]))
