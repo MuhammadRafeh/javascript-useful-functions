@@ -1,5 +1,5 @@
 /**
- * Converts Object {a: 1, b: 2} to Array of Objects [ {a: 1}, {b: 2} ]
+ * Converts Object `{a: 1, b: 2}` to Array of Objects `[ {a: 1}, {b: 2} ]`
  *
  * @usage
  * ```javascript
@@ -11,9 +11,9 @@
  */
 export const objectToArray = (object: object): Array<object> => Object.keys(object).map(key => ({ [key]: object[key] }));
 
-export const addToArray = (array: Array<any>, whatToAdd?: any, atWhatIndex?: number): Array<any> => {
+export const addToArrayAtIndex = (array: Array<any>, whatToAdd?: any, index?: number): Array<any> => {
     const dupArr = [...array];
-    dupArr.splice(atWhatIndex, 0, whatToAdd);
+    dupArr.splice(index, 0, whatToAdd);
     return dupArr;
 }
 
