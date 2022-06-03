@@ -1,6 +1,6 @@
 {
   "name": "javascript-useful-functions",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Javascript based useful functions like conversion from object to list",
   "main": "index.tsx",
   "scripts": {
