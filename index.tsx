@@ -1,1 +1,1 @@
-export { objectToArray, addToArray, addToArrayAfterSpecificValue } from './src/functions.d';
+export { objectToArray, addToArrayAtIndex, addToArrayBeforeOrAfterSpecificValue } from './src/functions.d';
