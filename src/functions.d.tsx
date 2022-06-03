@@ -37,7 +37,7 @@ export const addToArrayAtIndex = (array: Array<any>, whatToAdd?: any, index?: nu
  * console.log(newArr) // [ 1, 2, 'i want to add this', 3 ]
  * ```
  * 
- * @return Array
+ * @return Array | -1 (incase if specificValue not exists in given array)
  */
 export const addToArrayBeforeOrAfterSpecificValue = (array: Array<any>, whatToAdd?: any, specificValue?: any, addAfterOrBefore?: number): Array<any> | number => {
     const index = array.findIndex(value => value == specificValue)
