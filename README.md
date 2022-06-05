@@ -11,7 +11,7 @@ npm install javascript-useful-functions
 ## Usage
 
 ```js
-import { multiply } from "javascript-useful-functions";
+import { objectToArray, addToArrayAtIndex, addToArrayBeforeOrAfterSpecificValue } from "javascript-useful-functions";
 
 // ...
 
