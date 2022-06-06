@@ -46,3 +46,7 @@ export const addToArrayBeforeOrAfterSpecificValue = (array: Array<any>, whatToAd
     dupArr.splice(addAfterOrBefore ? index + 1 : index, 0, whatToAdd)
     return dupArr;
 }
+
+export const convertObjectToClass = (array: Array<any>, whatToAdd?: any, specificValue?: any, addAfterOrBefore?: number): Array<any> | number => {
+  return 0;
+}
