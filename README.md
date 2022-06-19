@@ -13,9 +13,14 @@ npm install javascript-useful-functions
 ```js
 import { objectToArray, addToArrayAtIndex, addToArrayBeforeOrAfterSpecificValue } from "javascript-useful-functions";
 
-// ...
+const newArr = objectToArray({a: 1, b: 5})
+console.log(newArr) // [ {a: 1}, {b: 5} ]
 
-const result = await multiply(3, 7);
+const newArr = addToArrayAtIndex([4,6,5], 'Hello', 1)
+console.log(newArr) // [ 4, 'Hello', 6, 5 ]
+
+ const newArr = addToArrayBeforeOrAfterSpecificValue([1,2,3], 'i want to add this', 2, 1)
+ console.log(newArr)
 ```
 
 ## Contributing
