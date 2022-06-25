@@ -40,10 +40,10 @@ export const addToArrayAtIndex = (array: Array<any>, whatToAdd?: any, index?: nu
  * @return Array | -1 (incase if specificValue not exists in given array)
  */
 export const addToArrayBeforeOrAfterSpecificValue = (array: Array<any>, whatToAdd?: any, specificValue?: any, addAfterOrBefore?: number): Array<any> | number => {
-    const index = array.findIndex(value => value == specificValue)
+    const index = array.findIndex(value => value == specificValue);
     if (index == -1) return -1;
     const dupArr = [...array];
-    dupArr.splice(addAfterOrBefore ? index + 1 : index, 0, whatToAdd)
+    dupArr.splice(addAfterOrBefore ? index + 1 : index, 0, whatToAdd);
     return dupArr;
 }
 
